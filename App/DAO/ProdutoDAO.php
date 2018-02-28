@@ -19,7 +19,7 @@ class ProdutoDAO extends Conexao
          $i->bindValue(":descricao", $produto->getDescricao());
          $i->bindValue(":quantidade", $produto->getQuantidade());
          $i->bindValue(":valor", $produto->getValor());
-         $i->bindValue(":validade", $produto->getvalidade());
+         $i->bindValue(":validade", $produto->getValidade());
          $i->execute();
          return true;
      } catch (\PDOException $e){

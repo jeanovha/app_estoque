@@ -13,7 +13,7 @@ class Conexao
 {
     protected $conexao;
     private $database = "db_estoque";
-    private $host = "localhot";
+    private $host = "localhost";
     private $user = "root";
     private $senha = "Suporte99";
 
